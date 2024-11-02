@@ -1,10 +1,7 @@
 import React from "react";
-import "../../assets/css/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Hero from "../../components/Hero/Hero";
-import Cards from "../../components/cards/Cards";
-
+import Hero from "../../components/Hero";
 const Home = () => {
   return (
     <>
@@ -13,9 +10,37 @@ const Home = () => {
       <Hero />
 
       {/* <!-- Employer & Job Seeker Section --> */}
-
-      <Cards />
-
+      {/* <div className="container-fluid">
+        <div className="row g-4 p-4">
+          <div className="col-sm-6 mb-3 mb-sm-0">
+            <div className="card-job">
+              <div className="card-body">
+                <h2 className="card-title">For Job Seekers</h2>
+                <p className="card-text">
+                  Browse our Ongozy jobs and start your career today
+                </p>
+                <a href="#" className="btn btn-dark px-4 py-2">
+                  Browse Jobs
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6 mb-3 mb-sm-0">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">For Employers</h2>
+                <p className="card-text">
+                  List your job to find the perfect candidate for the role
+                </p>
+                <a href="#" className="btn btn-employer px-4 py-2">
+                  Add Job
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      {/* <!-- Browse Jobs Section --> */}
       <section className="bg-custom-blue px-4 py-5">
         <div className="container-xl m-auto">
           <h2 className="browse-jobs font-weight-bold mb-4 text-center">

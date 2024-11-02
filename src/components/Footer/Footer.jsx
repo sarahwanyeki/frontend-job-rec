@@ -1,12 +1,18 @@
 import React from "react";
-import "./Footer.css";
+import "../../assets/css/style.css";
+
 const Footer = () => {
   return (
     <div className="footer">
-      {/* <!-- Footer --> */}
+      {" "}
+      {/* Ensure it spans full width */}
       <footer className="text-center bg-light py-4">
-        <div className="container">
-          <p>&copy; 2024 OngozyJobs. All rights reserved.</p>
+        <div className="container-fluid">
+          {" "}
+          {/* Adjusted from container to container-fluid */}
+          <p>
+            &copy; 2024 <strong>Ongozy Technology.</strong> All rights reserved.
+          </p>
           <div>
             <a href="#" className="me-2">
               <i className="fab fa-facebook-f"></i>
